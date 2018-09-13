@@ -172,17 +172,12 @@ for(i in 1:3926){
   }
   
 }
-mat
-dim(mat)
-index_6
-class(mat)
 
 count<-0
 mat[90:120,]
 mat<-mapply(mat,FUN = as.numeric)
 mat<-matrix(mat,nrow=188,ncol=30)
-mat
-class(mat)
+
 count<-0
 index_6<-c()
 for(i in 1:188){
@@ -196,22 +191,20 @@ for(i in 1:188){
   }
   
 }
-index_6
+
 mat[c(70,111),]
 #####only 2 point include 6
-mat
 
 yty<-as.matrix(table(mat[1,]))
-yty
 
 
 count<-0
-xgb94
+
 for(i in 1:3926){
   if(xgb94[i]==6 & svm_940_predict[i]!=6)
     count<-count+1
 }
-count
+
 count<-0
 for(i in 1:188){
   if(4 %in% mat[i,]){
@@ -225,20 +218,14 @@ for(i in 1:188){
 
 
 
-count
 
 
-table(mat[5,])
-mat
-
-count
 
 mat<-as.numeric(mat)
-(6 %in%mat)
 
 
 
-count
+
 svm_940_predict<-c()
 for(i in 1:3926){
   label<-names(sort(table(svm_940[i,]), decreasing = TRUE  ))[1]
@@ -332,19 +319,10 @@ for(i in 1:18){
 plot(value)
 
 
-
-
-
-
 length(log_predict)
-
-
-
 
 
 dim(train_X)
 dim(X_train)
 dim(X_group_A_train)
-
-
 
