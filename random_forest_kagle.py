@@ -2,7 +2,7 @@
 """
 Spyder Editor
 
-This is a temporary script file.
+Random forest model from scratch
 """
 
 
